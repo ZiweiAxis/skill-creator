@@ -1,6 +1,6 @@
 ---
 name: skill-creator
-description: Create new skills, modify and improve existing skills, measure skill performance, and manage skill distribution across Agents. Use when users want to create a skill from scratch, update or optimize an existing skill, run evals, or when they ask to sync skills, manage the skill hub, or configure which agents can see which skills using the 2-layer 2-dimension architecture.
+description: [USM] Create new skills, modify and improve existing skills, measure skill performance, and manage skill distribution across Agents.
 ---
 
 # Skill Creator
@@ -65,6 +65,16 @@ Based on the user interview, fill in these components and generate the files in 
 - **the rest of the skill :)**
 
 After creating the files, tell the user to use the `skill-manager` (or run `~/.skills/skill-manager/scripts/sync_skills.sh`) to automatically configure its `meta.yaml` scope and distribute it via the 2-layer 2-dimension architecture.
+
+### Naming Conventions & Namespace
+
+To ensure the system remains organized and to avoid directory-level collisions in `~/.skills/`, follow these rules:
+
+1. **Reserved Names**: Never create skills named `skill-creator`, `skill-manager`, or `skill-installer`.
+2. **Namespace Pattern**: Encourage the use of a namespace in the skill name and directory. 
+   - **Recommended**: `skill-<username>-<task>` or `skill-<project>-<task>`.
+   - **Example**: `skill-ziwei-docker`, `skill-nas-backup`.
+3. **Menu Identification**: While most skills start with `skill-`, the core USM tools are tagged with `[USM]` in the description. Avoid using this tag for user-created skills.
 
 ### Skill Writing Guide
 
