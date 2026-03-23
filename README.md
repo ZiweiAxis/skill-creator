@@ -33,3 +33,6 @@ After creating a skill with `skill-creator`, you should use **[skill-manager](ht
 - `eval-viewer/`: The frontend viewer for reviewing evaluation results.
 - `references/`: Schemas and writing guides.
 - `LICENSE.txt`: Apache License 2.0.
+
+## 🤝 Credits
+This tool is based on the **`skill-creator`** workflow and scripts originally developed for **Claude Code**.
