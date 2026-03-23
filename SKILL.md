@@ -1,6 +1,6 @@
 ---
 name: skill-creator
-description: [USM] Create new skills, modify and improve existing skills, measure skill performance, and manage skill distribution across Agents.
+description: [USM] Create new skills, modify and improve existing skills, measure skill performance, and manage skill distribution across Agents. Use when users want to create a skill from scratch, update or optimize an existing skill, run evals, or when they ask to sync skills, manage the skill hub, or configure which agents can see which skills using the 2-layer 2-dimension architecture.
 ---
 
 # Skill Creator
