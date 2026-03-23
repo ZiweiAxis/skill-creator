@@ -2,6 +2,13 @@
 
 A specialized tool for scoping, drafting, and iteratively improving AI skills. It provides a structured workflow to transform user intent into high-quality, benchmarked agent instructions.
 
+## 📦 Installation from Registry
+
+To install or update the `skill-creator` via the public registry:
+```bash
+clawhub install skill-creator-usm
+```
+
 ## 🌟 Overview
 
 `skill-creator` is part of the **Universal Skill Management (USM)** ecosystem. While `skill-manager` handles distribution and `skill-installer` handles acquisition, `skill-creator` is the engine for **development and quality assurance**.
